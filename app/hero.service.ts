@@ -23,6 +23,10 @@ export class HeroService {
 						.then(heroes => heroes.find(hero => id === hero.id));
 	}
 
+	handleError(): void {
+
+	}
+
 /*
 	getHeroesSlowly(): Promise<Hero[]> {
 		return new Promise<Hero[]>(resolve => 
